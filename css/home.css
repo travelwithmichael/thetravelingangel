@@ -1,0 +1,217 @@
+x`/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap')
+.wrapper{
+  background: url(#) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header{
+  width: 100vw;
+  height: 100vh;
+background-image: url();
+}
+
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(86, 155, 211, 0.4);
+
+}
+.logo{
+    width: 140px;
+    height: 75px;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}.navbar ul li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 20px;
+    font-family:  Arial, Helvetica, sans-serif;
+
+}
+.navbar ul li a.active
+.navbar ul li a.hover {
+    background: blue;
+    border-radius: 2px;
+}
+.wrapper .center{
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+}
+.center h1{
+  color: beige;
+  font-size: 70px;
+  font-weight: bold;
+  width: 900px;
+  text-align: center;
+
+}
+.center h2{
+  color: beige;
+  font-size: 30px;
+  font-weight: bold;
+  width: 850px;
+  margin-top: 10px;
+  text-align: center;
+
+}
+.center .buttons{
+  margin: 35px 280px;
+}
+.buttons button{
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  color: whitesmoke;
+  background: blue;
+  border: 1px solid #ccooooo;
+  outline: none;   
+  cursor: pointer;
+  border-radius: 25px;
+
+}
+
+    /* Things To Do and More */
+section {
+    width: 80%;
+    margin: 80px auto;
+  }
+  .title {
+    text-align: center;
+    font-size: 4vmin;
+    color: #3B5998;
+  
+  }
+  .row  {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  
+  }
+  .row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  
+  }
+  .thingstodoandmore .row {
+    margin-top: 50px;
+  
+  }
+  h4{
+    font-size: 3vmin;
+    color: #3B5998;
+    margin: 20px auto;
+  
+  }
+  p {
+    color: black;
+    padding: 0px 40px;
+  
+  }
+  .thingstodoandmore .ctn {
+    margin-top: 30px;
+  
+  }
+  .information1 .row .col {
+    width: 50%;
+    
+  }
+  .content-col{
+    width: 40%;
+  }
+  .image-col {
+    width: 60%;
+
+  }
+    .information1 .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      align-items: center;
+  
+    }
+    .image-gallery img {
+      max-width: 300px;
+      margin: 10px;
+  
+  
+    }
+.content-col h1{
+font-size: 7vmin;
+color: aqua;
+
+}
+.content-col .line {
+  margin-left: -1px;
+}
+.content-col p{
+  padding: 0;
+  margin 30px auto; 
+
+
+}
+.content-col .ctn
+margin-left -100p
+
+/*footer*/
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* Youtube */
+  .fa-youtube {
+    background: red;
+    color: #fff;
+  }
+
+  body {background-color: rgb(44, 84, 194);}
